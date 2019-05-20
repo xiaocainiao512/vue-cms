@@ -1,0 +1,42 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "mint-ui": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-component": "^1.1.1",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.0",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack ",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "server": "webpack-dev-server --open --port 3000 --contentBase src"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
