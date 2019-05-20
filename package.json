@@ -6,6 +6,7 @@
     "@babel/runtime": "^7.4.4",
     "mint-ui": "^2.2.13",
     "vue": "^2.6.10",
+    "vue-resource": "^1.5.1",
     "vue-router": "^3.0.6"
   },
   "devDependencies": {
